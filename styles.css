@@ -1,66 +1,80 @@
 body {
-  text-align: center;
-  background-color: #011f3f;
+    text-align: center;
+    background-color: #011f3f;
 }
 
-#level-title { 
-  font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
-  margin:  5%;
-  color: #FEF2BF;
+#level-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    margin: 5%;
+    color: #FEF2BF;
 }
 
-.container {
-  display: block;
-  width: 50%;
-  margin: auto;
+.right {
+    display: block;
+    width: 50%;
+    margin: 0;
 
 }
 
 .btn {
-  margin: 25px;
-  display: inline-block;
-  height: 200px;
-  width: 200px;
-  border: 10px solid black;
-  border-radius: 20%;
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
 }
 
 .game-over {
-  background-color: red;
-  opacity: 0.8;
+    background-color: red;
+    opacity: 0.8;
 }
 
 .red {
-  background-image: url(images/red.png);
+    background-image: url(images/red.png);
 }
+
 .green {
-  background-image: url(images/green.png);
+    background-image: url(images/green.png);
 }
 
 .blue {
-  background-image: url(images/blue.png);
+    background-image: url(images/blue.png);
 }
 
 .yellow {
-  background-image: url(images/yellow.png);
+    background-image: url(images/yellow.png);
 }
 
 .pressed {
-  box-shadow: 0 0 20px white;
-  background-color: grey;
+    box-shadow: 0 0 20px white;
+    background-color: grey;
 }
 
-.vis{
-  visibility: hidden;
+.vis {
+    visibility: hidden;
 }
 
 .restart {
-  background: #011f3f;
-  border-radius: 10px;
-  font-family: 'Press Start 2P', cursive;
-  color: #FEF2BF;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  border: 2px solid black;
+    background: #011f3f;
+    border-radius: 10px;
+    font-family: 'Press Start 2P', cursive;
+    color: #FEF2BF;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid black;
 }
+
+.main_table {
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    width: 40%;
+}
+/* 
+.right{
+    width: 60%;
+} */
